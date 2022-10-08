@@ -53,22 +53,6 @@ class Application(tk.Tk):
         label = ttk.Label(self, text="Gif to Frames", font=("Arial", 16),style="BW.TLabel", foreground="white", background="#404040")
         label.grid(row=0, column=1,  sticky="news",pady=0)
 
-        # # create a button
-        # button = ttk.Button(self, text="Browse", command=self.browse_button,style="BW.TButton")
-        # button.grid(row=0, column=0,sticky='news',**button_padding)
-        # button = ttk.Button(self, text="Play", command=self.on_file_open,style="BW.TButton")
-        # button.grid(row=0, column=0,sticky='news',**button_padding)
-
-        # # create a button
-        # button = ttk.Button(self, text="Convert", command=self.export_button)
-        # button.grid(row=0, column=1,sticky='news',**button_padding)
-
-        # # create a button
-
-        # button = ttk.Button(self, text="Exit", command=self.exit_button)
-        # button.grid(row=0, column=2,sticky='news',**button_padding)
-
-
         self.initial_row = 1
         current_col = 0
         current_row = self.initial_row 
